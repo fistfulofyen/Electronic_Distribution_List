@@ -3,6 +3,7 @@ import ssl
 import smtplib
 import re
 import pandas as pd
+import sys
 
 
 def validate_enail(email_list):
@@ -22,7 +23,7 @@ def validate_enail(email_list):
             invalid == True
 
     if invalid:
-        exit()
+        sys.exit(0)
         
 
 def get_email_list_from_csv(csv_path):
