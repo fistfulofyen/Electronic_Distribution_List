@@ -61,7 +61,7 @@ The script includes an email validation function that checks the validity of eac
 
 ## License
 
-no license [sad face]
+MIT
 
 
 ## Contributions
